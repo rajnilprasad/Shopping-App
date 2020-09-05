@@ -6,6 +6,7 @@ import AddProduct from "./components/AddProduct";
 import Cart from "./components/Cart";
 import data from "./Data";
 import Context from "./Context";
+import Contact from "./components/Contact";
 
 export default class App extends Component {
   constructor(props) {
@@ -115,7 +116,7 @@ export default class App extends Component {
               aria-label="main navigation"
             >
               <div className="navbar-brand">
-                <b className="navbar-item is-size-4 ">E-Commerce</b>
+                <b className="navbar-item is-size-4 ">Shop City</b>
 
                 <a
                   href="/"
@@ -137,7 +138,7 @@ export default class App extends Component {
               <div
                 className={`navbar-menu ${
                   this.state.showMenu ? "is-active" : ""
-                }`}
+                  }`}
               >
                 <Link to="/products" className="navbar-item">
                   Products
@@ -161,10 +162,14 @@ export default class App extends Component {
                     Login
                   </Link>
                 ) : (
-                  <a href="/" className="navbar-item" onClick={this.logout}>
-                    Logout
-                  </a>
-                )}
+                    <a href="/" className="navbar-item" onClick={this.logout}>
+                      Logout
+                    </a>
+                  )}
+
+                <Link to="/contact" className="navbar-item">
+                  Contact
+                  </Link>
               </div>
             </nav>
 
@@ -174,6 +179,7 @@ export default class App extends Component {
               <Route exact path="/cart" component={Cart} />
               <Route exact path="/add-product" component={AddProduct} />
               <Route exact path="/products" component={ProductList} />
+              <Route exact path="/contact" component={Contact} />
             </Switch>
           </div>
         </Router>
