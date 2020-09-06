@@ -8,6 +8,7 @@ import data from "./Data";
 import Context from "./Context";
 import Contact from "./components/Contact";
 
+
 export default class App extends Component {
   constructor(props) {
     super(props);
