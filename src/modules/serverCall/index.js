@@ -4,7 +4,7 @@ import axios from 'axios'
 import qs from 'qs'
 import paypalConfig from '../../configs/paypalConfig'
 
-const URL = 'https://zack-ecommerce-nodejs.herokuapp.com'
+const URL = 'https://fast-lowlands-21992.herokuapp.com/'
 // const URL = 'http://localhost:4000'
 
 const serverCall = (config) => {
