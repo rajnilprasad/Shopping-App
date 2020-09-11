@@ -17,7 +17,7 @@ export default function Base({
 }) {
   return (
     <div className={styles.outbox}>
-      <div className={styles.logo}>Zack Market</div>
+      <div className={styles.logo}>Shop City</div>
       <div className={styles.title_style}>{title}</div>
       <div className={styles.border_style}></div>
       {
