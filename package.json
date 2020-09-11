@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "mern",
   "version": "1.0.0",
   "description": "Mern Demo",
@@ -22,5 +23,46 @@
   "dependencies": {
     "express": "^4.16.3",
     "if-env": "^1.0.4"
+=======
+  "name": "e-commerce",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "build": "^0.1.4",
+    "bulma": "^0.8.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-mdl": "^2.1.0",
+    "react-native": "^0.63.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "sass": "^1.26.10",
+    "webpack": "^4.44.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+>>>>>>> 7832e6f9def7ae3e32b17e40156d4bf9a43905fa
   }
 }

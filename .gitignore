@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 /src/configs
@@ -23,3 +24,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+=======
+node_modules
+>>>>>>> 7832e6f9def7ae3e32b17e40156d4bf9a43905fa
